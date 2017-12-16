@@ -6,11 +6,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |element|
-    array2=element.split
-    first_letter=array2[0]
-    first_letter.upcase
-    array2<<"!"
-    array2.join
+    element.capitalize<<"!"
   end
 end
 
